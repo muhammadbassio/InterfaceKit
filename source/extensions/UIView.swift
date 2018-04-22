@@ -28,6 +28,11 @@ public extension UIView {
     set { self.layer.shadowOpacity = newValue }
   }
   
+  @IBInspectable public var shadowRadius:CGFloat {
+    get { return self.layer.shadowRadius }
+    set { self.layer.shadowRadius = newValue }
+  }
+  
   @IBInspectable public var borderWidth:CGFloat {
     get { return self.layer.borderWidth }
     set { self.layer.borderWidth = newValue }
@@ -36,6 +41,11 @@ public extension UIView {
   @IBInspectable public var borderColor:UIColor {
     get { return UIColor(cgColor: self.layer.borderColor!) }
     set { self.layer.borderColor = newValue.cgColor }
+  }
+  
+  /// Returns constrains with specified identifier
+  public func constraint(withIdentifier:String) -> NSLayoutConstraint? {
+    return self.constraints.filter{ $0.identifier == withIdentifier }.first
   }
   
   /**

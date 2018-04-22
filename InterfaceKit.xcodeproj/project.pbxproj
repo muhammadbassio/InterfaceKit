@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0869B7EC208C59C300ADAB50 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7EB208C59C300ADAB50 /* UIControl.swift */; };
+		0869B7EE208C5C8F00ADAB50 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7ED208C5C8F00ADAB50 /* UIButton.swift */; };
+		0869B7F0208C5CF700ADAB50 /* NSLayoutDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7EF208C5CF700ADAB50 /* NSLayoutDimension.swift */; };
+		0869B7F2208C5D1D00ADAB50 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7F1208C5D1C00ADAB50 /* CALayer.swift */; };
+		0869B7F4208C5DC800ADAB50 /* IKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7F3208C5DC800ADAB50 /* IKButton.swift */; };
+		0869B7F6208C5E7700ADAB50 /* IKAnimatableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7F5208C5E7700ADAB50 /* IKAnimatableButton.swift */; };
+		0869B7F8208C5F2500ADAB50 /* IKPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0869B7F7208C5F2500ADAB50 /* IKPageControl.swift */; };
 		089D3F7A2088B408001C0F88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D3F792088B408001C0F88 /* AppDelegate.swift */; };
 		089D3F7C2088B409001C0F88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089D3F7B2088B409001C0F88 /* ViewController.swift */; };
 		089D3F7F2088B409001C0F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089D3F7D2088B409001C0F88 /* Main.storyboard */; };
@@ -26,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0869B7EB208C59C300ADAB50 /* UIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
+		0869B7ED208C5C8F00ADAB50 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		0869B7EF208C5CF700ADAB50 /* NSLayoutDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutDimension.swift; sourceTree = "<group>"; };
+		0869B7F1208C5D1C00ADAB50 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		0869B7F3208C5DC800ADAB50 /* IKButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKButton.swift; sourceTree = "<group>"; };
+		0869B7F5208C5E7700ADAB50 /* IKAnimatableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKAnimatableButton.swift; sourceTree = "<group>"; };
+		0869B7F7208C5F2500ADAB50 /* IKPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKPageControl.swift; sourceTree = "<group>"; };
 		089D3F762088B408001C0F88 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		089D3F792088B408001C0F88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		089D3F7B2088B409001C0F88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +116,10 @@
 				089D3F8E2088B4C6001C0F88 /* UIView.swift */,
 				089D3F922088B5EF001C0F88 /* UIImage.swift */,
 				089D3F942088B7BA001C0F88 /* UIColor.swift */,
+				0869B7EB208C59C300ADAB50 /* UIControl.swift */,
+				0869B7ED208C5C8F00ADAB50 /* UIButton.swift */,
+				0869B7EF208C5CF700ADAB50 /* NSLayoutDimension.swift */,
+				0869B7F1208C5D1C00ADAB50 /* CALayer.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -122,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				089D3F9B2088C19A001C0F88 /* IKRefreshControl.swift */,
+				0869B7F3208C5DC800ADAB50 /* IKButton.swift */,
+				0869B7F5208C5E7700ADAB50 /* IKAnimatableButton.swift */,
+				0869B7F7208C5F2500ADAB50 /* IKPageControl.swift */,
 			);
 			path = controls;
 			sourceTree = "<group>";
@@ -236,11 +257,18 @@
 				089D3F952088B7BA001C0F88 /* UIColor.swift in Sources */,
 				089D3F932088B5EF001C0F88 /* UIImage.swift in Sources */,
 				089D3FB12088CECA001C0F88 /* IKAlertAnimator.swift in Sources */,
+				0869B7F8208C5F2500ADAB50 /* IKPageControl.swift in Sources */,
 				089D3FAF2088CE90001C0F88 /* IKAlertTransitioningDelegate.swift in Sources */,
+				0869B7EE208C5C8F00ADAB50 /* UIButton.swift in Sources */,
 				089D3FA12088C51F001C0F88 /* IKLabel.swift in Sources */,
+				0869B7F4208C5DC800ADAB50 /* IKButton.swift in Sources */,
+				0869B7F0208C5CF700ADAB50 /* NSLayoutDimension.swift in Sources */,
 				089D3F8F2088B4C6001C0F88 /* UIView.swift in Sources */,
+				0869B7F2208C5D1D00ADAB50 /* CALayer.swift in Sources */,
+				0869B7EC208C59C300ADAB50 /* UIControl.swift in Sources */,
 				089D3F7A2088B408001C0F88 /* AppDelegate.swift in Sources */,
 				089D3F9C2088C19A001C0F88 /* IKRefreshControl.swift in Sources */,
+				0869B7F6208C5E7700ADAB50 /* IKAnimatableButton.swift in Sources */,
 				089D3FB32088CF2C001C0F88 /* IKAlertPresentationController.swift in Sources */,
 				089D3FA62088C783001C0F88 /* IKActivityIndicatorView.swift in Sources */,
 				089D3FA92088C969001C0F88 /* IKAlertController.swift in Sources */,
